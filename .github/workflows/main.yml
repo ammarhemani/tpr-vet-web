@@ -11,6 +11,9 @@ jobs:
     steps:
       - name: Setup .env file
         run: |
+          pwd
+          mkdir assets
+          pwd
           touch assets/.env
           echo SUPABASE_URL=${{ secrets.SUPABASE_URL }} >> .env
           echo SUPABASE_ANON_KEY=${{ secrets.SUPABASE_ANON_KEY }} >> .env
