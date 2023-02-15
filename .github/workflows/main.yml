@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: Setup .env file
         run: |
-          touch .env
+          touch assets/.env
           echo SUPABASE_URL=${{ secrets.SUPABASE_URL }} >> .env
           echo SUPABASE_ANON_KEY=${{ secrets.SUPABASE_ANON_KEY }} >> .env
       - uses: actions/checkout@v2 # Only works with v2
@@ -19,4 +19,3 @@ jobs:
       - uses: bluefireteam/flutter-gh-pages@v7
         with:
           baseHref: /tpr-vet-web/
-          workingDir: build/web
