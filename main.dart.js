@@ -31236,6 +31236,8 @@ L0(){var s=0,r=A.N(t.z),q,p
 var $async$L0=A.O(function(a,b){if(a===1)return A.K(b,r)
 while(true)switch(s){case 0:if($.Q==null)A.aqi()
 $.Q.toString
+A.cu("env: "+$.a43().gGO().j(0))
+A.cu("env: "+A.aZj().j(0))
 s=2
 return A.z($.a43().zH(0,".env"),$async$L0)
 case 2:q=$.a43().gGO().h(0,"SUPABASE_URL")
@@ -31244,9 +31246,7 @@ p=$.a43().gGO().h(0,"SUPABASE_ANON_KEY")
 p.toString
 s=3
 return A.z(A.anX(p,q),$async$L0)
-case 3:A.cu("env: "+$.a43().gGO().j(0))
-A.cu("env: "+A.aZj().j(0))
-if($.Q==null)A.aqi()
+case 3:if($.Q==null)A.aqi()
 q=$.Q
 q.XU(new A.Vc(null))
 q.JT()
