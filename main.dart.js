@@ -120723,18 +120723,17 @@ a3=A.az(d,a3,1,d,d,A.b([a0],a1),d,d,new A.aHh(c),d,d,"Dose",new A.aHi())
 p=A.a1(d,d,12)
 o=A.az(c.r,!1,1,d,d,d,d,d,new A.aHj(c),d,d,"Dose unit",d)
 n=A.a1(d,d,12)
-m=!c.y
-l=A.az(c.w,m,1,d,d,d,d,d,new A.aHk(c),d,d,"Vol (calc)",d)
+m=A.az(c.w,!1,1,d,d,d,d,d,new A.aHk(c),d,d,"Vol (calc)",d)
+l=A.a1(d,d,12)
+a0=A.az(d,!c.y,1,d,d,A.b([a0],a1),d,d,new A.aHl(c),d,new A.kg(2,!1,!0),"Vol (to give)",new A.aHm())
 k=A.a1(d,d,12)
-a0=A.az(d,m,1,d,d,A.b([a0],a1),d,d,new A.aHl(c),d,new A.kg(2,!1,!0),"Vol (to give)",new A.aHm())
-m=A.a1(d,d,12)
 j=c.a.d.ax
 i=c.y
 h=$.aP_
 g=A.a1(d,d,12)
 f=A.ci(i?B.HF:B.HJ,d,d,d)
 e=t.p
-return A.bD(A.b([A.bJ(A.b([b,a,a2,s,r,q,a3,p,o,n,l,k,a0,m,new A.pB(h,j,d,new A.aH4(c),!i,d),g,A.dZ(f,new A.aH5(c),A.ahJ(d,d,i?$.aUm():d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d)),A.a1(d,d,12),A.az(d,!0,1,"00:00",d,A.b([new A.mT()],a1),d,d,new A.aH6(c),d,B.iy,"Time",new A.aH7()),A.a1(d,d,12),A.az(d,!0,1,d,d,d,d,d,new A.aH8(c),d,d,"Given by",new A.aH9()),A.a1(d,d,12),A.az(d,!0,1,d,d,d,d,d,new A.aHa(c),d,d,"Bottle",d),A.a1(d,d,12),A.az(d,!0,1,d,d,d,d,d,new A.aHb(c),d,d,"Logged by",d),A.a1(d,d,12),A.bL(d,A.az(d,!0,0,d,d,d,d,d,new A.aHc(c),d,B.ix,"Comments",d),d,new A.aC(0,150,0,1/0),d,d,d,d,d,d),A.a1(d,d,12),A.dZ(A.ci(B.aB,d,d,d),new A.aHd(c),d)],e),B.o,B.k,B.l,d),new A.xQ(new A.aHf(c),d)],e),B.ar,B.k,B.l,B.t)},
+return A.bD(A.b([A.bJ(A.b([b,a,a2,s,r,q,a3,p,o,n,m,l,a0,k,new A.pB(h,j,d,new A.aH4(c),!i,d),g,A.dZ(f,new A.aH5(c),A.ahJ(d,d,i?$.aUm():d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d,d)),A.a1(d,d,12),A.az(d,!0,1,"00:00",d,A.b([new A.mT()],a1),d,d,new A.aH6(c),d,B.iy,"Time",new A.aH7()),A.a1(d,d,12),A.az(d,!0,1,d,d,d,d,d,new A.aH8(c),d,d,"Given by",new A.aH9()),A.a1(d,d,12),A.az(d,!0,1,d,d,d,d,d,new A.aHa(c),d,d,"Bottle",d),A.a1(d,d,12),A.az(d,!0,1,d,d,d,d,d,new A.aHb(c),d,d,"Logged by",d),A.a1(d,d,12),A.bL(d,A.az(d,!0,0,d,d,d,d,d,new A.aHc(c),d,B.ix,"Comments",d),d,new A.aC(0,150,0,1/0),d,d,d,d,d,d),A.a1(d,d,12),A.dZ(A.ci(B.aB,d,d,d),new A.aHd(c),d)],e),B.o,B.k,B.l,d),new A.xQ(new A.aHf(c),d)],e),B.ar,B.k,B.l,B.t)},
 $S:693}
 A.aH1.prototype={
 $1(a){return this.a.a.d.b=a},
